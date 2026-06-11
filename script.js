@@ -15,6 +15,7 @@ let TheWayYouAre = document.getElementById("just-the-say-you-are")
 
 
 function playError(duration) {
+    error.play()
     error.style.display = "block";
     audio.play();
     setTimeout(() => {
@@ -963,10 +964,10 @@ window.addEventListener("load", () => {
             setTimeout(() => {
                 jumpscareDiv.style.display = "none";
                 jumpscare.style.display = "none"
-                error.style.display = "block";
+                playError(1000)
                 setTimeout(() => {
                     error.style.display = "none";
-                    audio.pause();
+                    
                     piano.play();
                     piano.loop = true;
 

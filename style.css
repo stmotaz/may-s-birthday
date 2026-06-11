@@ -335,21 +335,6 @@ html , body{
         transform: rotate(1deg);
     }
 }
-.error {
-    display: none;
-    position: fixed;
-    z-index: 9;
-    width: 100%;
-    height: 100%;
-  background: 
-    repeating-radial-gradient(#000 0 0.0001%,#fff 0 0.0002%) 50% 0/2500px 2500px,
-    repeating-conic-gradient(#000 0 0.0001%,#fff 0 0.0002%) 60% 60%/2500px 2500px;
-  background-blend-mode: difference;
-  animation: b 0.2s infinite alternate;
-}
-@keyframes b{
-  0% {background-position: 50% 0, 60% 50%}
-}
 
 @media screen and (max-width: 768px) {
     .plate {
@@ -440,14 +425,9 @@ html , body{
     top: 60%;
     left: 30%;
     transform: translateX(-50%);
-    z-index: 17;
+    z-index: 10;
     width: 130px;
     height: 70px;
-  background: 
-    repeating-radial-gradient(#000 0 0.0001%,#fff 0 0.0002%) 50% 0/2500px 2500px,
-    repeating-conic-gradient(#000 0 0.0001%,#fff 0 0.0002%) 60% 60%/2500px 2500px;
-  background-blend-mode: difference;
-  animation: b .2s infinite alternate;
 }
 .Cute-Error-Text{
     color: palevioletred;
