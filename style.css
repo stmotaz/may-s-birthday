@@ -2,6 +2,9 @@ body {
     background-color: #1B1212;
     overflow: hidden;
     margin: 0;
+    position: relative;
+    width: 100%;
+    height: 100dvh;
     
 }
 html , body{
