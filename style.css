@@ -44,7 +44,7 @@ html , body{
     display: block;
     justify-content: center;
     position: absolute;
-    top: 370px;
+    top: 43.5dvh;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -280,6 +280,21 @@ html , body{
     position: absolute;
 }
 
+.click {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%) rotate(0deg);
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 60px;
+    color: #ffffff67;
+    opacity: 0;
+    transition: 2s;
+    animation: slow-rotate 5s ease-in-out infinite;
+}
+
 @keyframes slow-rotate {
     0% {
         transform: translateX(-50%) rotate(0deg);
@@ -326,7 +341,10 @@ html , body{
 
 @media screen and (max-width: 768px) {
     .plate {
-        top: 60dvh;
+        top: 500px;
+    }
+    .click {
+        font-size: 51px;
     }
 }
 .text{
