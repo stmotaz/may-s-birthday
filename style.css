@@ -423,8 +423,8 @@ html , body{
 .Cute-Error {
     display: block;
     position: absolute;
-    top: 60.1%;
-    left: 30%;
+    top: 60.1vh;
+    left: 30vw;
     transform: translateX(-50%);
     z-index: 10;
     width: 130px;
@@ -433,8 +433,8 @@ html , body{
 .Cute-Error-Text{
     color: palevioletred;
     position: absolute;
-    top: 57%;
-    left: 50%;
+    top: 57vh;
+    left: 50vw;
     font-family: "Caveat", cursive;
     font-optical-sizing: auto;
     font-style: normal;
