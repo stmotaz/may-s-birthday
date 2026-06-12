@@ -2,6 +2,7 @@ body {
     background-color: #1B1212;
     overflow: hidden;
     margin: 0;
+    
 }
 html , body{
     overflow: hidden;
@@ -422,8 +423,8 @@ html , body{
 .Cute-Error {
     display: block;
     position: absolute;
-    top: 560px;
-    left: 30%;
+    top: 60.1vh;
+    left: 30vw;
     transform: translateX(-50%);
     z-index: 10;
     width: 130px;
@@ -432,8 +433,8 @@ html , body{
 .Cute-Error-Text{
     color: palevioletred;
     position: absolute;
-    top: 530px;
-    left: 230px;
+    top: 57vh;
+    left: 50vw;
     font-family: "Caveat", cursive;
     font-optical-sizing: auto;
     font-style: normal;
